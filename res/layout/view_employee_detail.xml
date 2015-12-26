@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="EMPLOYEE'S LIST"
+         android:background="#bf4e1f8b"
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+         android:textColor="#EEEEEE"/>
+
+        <ListView
+            android:id="@+id/listView1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" 
+            android:dividerHeight="1dp"
+            android:textStyle="bold">
+        </ListView>
+
+
+
+</LinearLayout>
